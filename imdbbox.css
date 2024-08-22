@@ -1,0 +1,93 @@
+.box-container{
+  width: 100%;
+  border: 1px solid #a7a3a3;
+  padding: 10px;
+}
+.box{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid #a7a3a3;
+  padding-top: 2px;
+}
+.box img{
+  width: 82px;
+  height: 126px;
+  cursor: pointer;
+}
+.box-text{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+.box-info{
+  display: flex;
+  gap: 10px;
+}
+.box-stat{
+  display: flex;
+  gap: 15px;
+}
+.box h1{
+  font-size:18px;
+  cursor: pointer;
+}
+.box p{
+  font-size: 15px;
+  color: #838383;
+  letter-spacing: 1px;
+}
+.bxs-star{
+  color: #ffe100;
+}
+.box-rating{
+  display: flex;
+}
+.box-myrating{
+  display: flex;
+}
+.box-myratingnone{
+  display: flex;
+  color: #0e63be;
+  cursor: pointer;
+}
+.box-myratingnone p{
+  color: #0e63be;
+}
+.box-myrating .bxs-star{
+  color: #0e63be;
+  cursor: pointer;
+}
+.bx-info-circle{
+  display: flex;
+  font-size: 26px;
+  justify-content: right;
+  color: #0e63be;
+  cursor: pointer;
+}
+.box-img{
+  position: relative;
+}
+.bxs-bookmark-plus{
+  color: #1b1b1b;
+  font-size: 36px;
+  position: absolute;
+  top: -3px;
+  left: -7px;
+  cursor: pointer;
+}
+.left-last{
+  padding-top: 20px;
+}
+.left-last-text{
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  gap: 5px;
+}
+.left-last-text p3{
+  padding-top: 10px;
+  color: #0e63be;
+  cursor: pointer;
+}

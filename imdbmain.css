@@ -1,0 +1,137 @@
+.main{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  height: 100%;
+}
+.main-container{
+  background-color: rgb(255, 255, 255);
+  width: 1400px;
+  padding: 70px 30px;
+}
+.main-side{
+  display: grid;
+  grid-template-columns: 7fr 4fr;
+  gap: 45px;
+}
+.main-right{
+  padding-top: 30px;
+}
+.right-title h1{
+  font-size: 26px;
+  padding-bottom: 20px;
+}
+.right-title span{
+  font-size: 26px;
+  color: #008A00;
+}
+.right-title p{
+  font-size: 20px;
+  color: #838383;
+}
+.hide{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 10px;
+}
+.bx-square{
+  font-size: 22px;
+}
+.hide p{
+  font-size: 18px;
+  color: black;
+}
+.main-left{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.main-title{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.main-title h1{
+  font-size: 26px;
+}
+.main-share{
+  display: flex;
+  align-items: center;
+  color: #838383;
+  font-size: 18px;
+  gap: 10px;
+}
+.bx-share-alt{
+  cursor: pointer;
+}
+.main-text h2{
+  font-weight: 200;
+  font-size: 38px;
+  border-left: solid 4px #deb522;
+  padding-left: 10px;
+}
+.main-text p{
+  padding-top: 10px;
+  color: #838383;
+}
+.main-navbar-title{
+  display: flex;
+  justify-content: space-between;
+}
+.main-navbar{
+  padding-top: 30px;
+}
+.main-navbar p{
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+.main-navbar-icon{
+  font-size: 24px;
+  cursor: pointer;
+  color: #838383;
+}
+.bx-menu-alt-left{
+  color: #0e63be;
+}
+.bx-filter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 55px;
+  height: 30px;
+  color: white;
+  font-size: 34px;
+  border: solid #0e63be;
+  background-color: #0e63be;
+  border-radius: 21px;
+  cursor: pointer;
+}
+.main-sort{
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.main-sort p{
+  font-size: 16px;
+  padding: 0;
+}
+.main-ranking{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #0e63be;
+  cursor: pointer;
+}
+.main-ranking .bxs-down-arrow{
+  font-size: 10px;
+}
+.up-down{
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
